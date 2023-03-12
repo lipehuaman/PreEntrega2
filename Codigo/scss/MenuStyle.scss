@@ -1,0 +1,143 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 120px);
+    margin-top: 44px;
+    margin-left: 10%;
+    .banner-lat {
+        background-color: rgb(24, 24, 24);
+        color: red;
+        grid-area: 1 / 1 / 11 / 4;
+        .textos {
+            justify-content: center;
+            .parrafo {
+                padding-left: 2%;
+                padding-right: 2%;
+                line-height: 1.5rem;
+                p {
+                    font-family: Helvetica;
+                    font-size: 2.5vh;
+                }
+            }
+            .titulo-pag {
+                font-size: 10vh;
+                text-align: center;
+            }
+        }
+    }
+    .entradas {
+        background-color: brown;
+        grid-area: 1 / 4 / 3 / 12;
+        background-image: url('https://www.goiko.com/wp-content/uploads/2022/03/PAPALATAS_1200x600.jpg');
+        background-position: center;
+    }
+    .tapas {
+        background-color: brown;
+        grid-area: 3 / 4 / 5 / 12;
+        background-image: url('https://www.goiko.com/wp-content/uploads/2022/02/SanaHoria_Ficha-de-producto-1200x600-1.jpg');
+        background-position: center;
+    }
+    .platos-fondo {
+        background-color: brown;
+        grid-area: 5 / 4 / 7 / 12;
+        background-image: url('https://www.goiko.com/wp-content/uploads/2017/02/ThaiChicken_Ficha-de-producto-1200x600-1.jpg');
+        background-position: center;
+    }
+    .bebidas {
+        background-color: brown;
+        grid-area: 7 / 4 / 9 / 12;
+        background-image: url('https://scm-assets.constant.co/scm/unilever/e9dc924f238fa6cc29465942875fe8f0/2d720e1e-ac0b-4ec2-aee4-403f33719222.jpg');
+        background-position: center;
+    }
+    .postres {
+        background-color: brown;
+        grid-area: 9 / 4 / 11 / 12;
+        background-image: url('https://www.thespruceeats.com/thmb/jSsI2w8FkyTDrJhQkYJ5d0HS2uE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/green-salad-recipe-ensalada-verde-3083556-hero-01-256ac7f4162b45e5a1f82a5234a0708c.jpg');
+        background-position: center;
+    }
+    h4 {
+        font-size: 5vw;
+    }
+}
+
+span {
+    padding-left: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    color: white;
+    font-size: 6vh;
+}
+
+$breakpoint-tablet: 1355px;
+@media (max-width: $breakpoint-tablet) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 120px);
+        margin-top: 44px;
+        margin-left: 2%;
+        margin-bottom: 200px;
+        .banner-lat {
+            background-color: rgb(24, 24, 24);
+            color: red;
+            grid-area: 1 / 1 / 3 / 12;
+            .parrafo {
+                justify-content: center;
+                text-align: center;
+                p {
+                    font-family: Helvetica;
+                    font-size: 2vh;
+                    padding: 4px;
+                }
+            }
+        }
+        .entradas {
+            background-color: brown;
+            grid-area: 3 / 1 / 5 / 12;
+            background-image: url('https://www.goiko.com/wp-content/uploads/2022/03/PAPALATAS_1200x600.jpg');
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 2%;
+        }
+        .tapas {
+            background-color: brown;
+            grid-area: 5 / 1 / 7 / 12;
+            background-image: url('https://www.goiko.com/wp-content/uploads/2022/02/SanaHoria_Ficha-de-producto-1200x600-1.jpg');
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 2%;
+        }
+        .platos-fondo {
+            background-color: brown;
+            grid-area: 7 / 1 / 9 / 12;
+            background-image: url('https://www.goiko.com/wp-content/uploads/2017/02/ThaiChicken_Ficha-de-producto-1200x600-1.jpg');
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 2%;
+        }
+        .bebidas {
+            background-color: brown;
+            grid-area: 9 / 1 / 11 / 12;
+            background-image: url('https://scm-assets.constant.co/scm/unilever/e9dc924f238fa6cc29465942875fe8f0/2d720e1e-ac0b-4ec2-aee4-403f33719222.jpg');
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 2%;
+        }
+        .postres {
+            background-color: brown;
+            grid-area: 11 / 1 / 13 / 12;
+            background-image: url('https://www.thespruceeats.com/thmb/jSsI2w8FkyTDrJhQkYJ5d0HS2uE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/green-salad-recipe-ensalada-verde-3083556-hero-01-256ac7f4162b45e5a1f82a5234a0708c.jpg');
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 2%;
+        }
+        span {
+            padding-left: 1%;
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+            color: white;
+            font-size: 4vh;
+            -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+        }
+    }
+}

@@ -1,0 +1,258 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 120px);
+  margin-top: 44px;
+  margin-left: 10%;
+}
+main .banner-lat {
+  background-color: rgb(24, 24, 24);
+  color: red;
+  grid-area: 1/1/11/4;
+  justify-content: center;
+  text-align: center;
+}
+main .banner-lat .parrafo {
+  font-size: 2.5vh;
+  font-family: "Helvetica";
+  line-height: 1.5rem;
+}
+main .papalatas {
+  background-color: brown;
+  grid-area: 1/4/3/8;
+  background-image: url("https://www.goiko.com/wp-content/uploads/2022/03/PAPALATAS_1200x600.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main .texto-plato1 {
+  color: rgb(24, 24, 24);
+  grid-area: 1/8/3/12;
+}
+main .texto-plato1 h5 {
+  font-size: 4vw;
+}
+main .texto-plato1 p {
+  font-size: 1vw;
+  font-family: "Helvetica";
+}
+main .sanahoria {
+  background-color: brown;
+  grid-area: 3/4/5/8;
+  background-image: url("https://www.goiko.com/wp-content/uploads/2022/02/SanaHoria_Ficha-de-producto-1200x600-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main .texto-plato2 {
+  color: rgb(24, 24, 24);
+  grid-area: 3/8/5/12;
+}
+main .texto-plato2 h5 {
+  font-size: 4vw;
+}
+main .texto-plato2 p {
+  font-size: 1vw;
+  font-family: "Helvetica";
+}
+main .terichicken {
+  background-color: brown;
+  grid-area: 5/4/7/8;
+  background-image: url("https://www.goiko.com/wp-content/uploads/2017/02/ThaiChicken_Ficha-de-producto-1200x600-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main .texto-plato3 {
+  color: rgb(24, 24, 24);
+  grid-area: 5/8/7/12;
+}
+main .texto-plato3 h5 {
+  font-size: 4vw;
+}
+main .texto-plato3 p {
+  font-size: 1vw;
+  font-family: "Helvetica";
+}
+main .empanadas {
+  background-color: brown;
+  grid-area: 7/4/9/8;
+  background-image: url("https://scm-assets.constant.co/scm/unilever/e9dc924f238fa6cc29465942875fe8f0/2d720e1e-ac0b-4ec2-aee4-403f33719222.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main .texto-plato4 {
+  color: rgb(24, 24, 24);
+  grid-area: 7/8/9/12;
+}
+main .texto-plato4 h5 {
+  font-size: 4vw;
+}
+main .texto-plato4 p {
+  font-size: 1vw;
+  font-family: "Helvetica";
+}
+main .ensalada-simple {
+  background-color: brown;
+  grid-area: 9/4/11/8;
+  background-image: url("https://www.thespruceeats.com/thmb/jSsI2w8FkyTDrJhQkYJ5d0HS2uE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/green-salad-recipe-ensalada-verde-3083556-hero-01-256ac7f4162b45e5a1f82a5234a0708c.jpg");
+  background-position: center;
+  background-size: cover;
+}
+main .texto-plato5 {
+  color: rgb(24, 24, 24);
+  grid-area: 9/8/11/12;
+}
+main .texto-plato5 h5 {
+  font-size: 4vw;
+}
+main .texto-plato5 p {
+  font-size: 1vw;
+  font-family: "Helvetica";
+}
+main h4 {
+  font-size: 5vw;
+}
+main h3 {
+  color: red;
+}
+
+@media (max-width: 950px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 180px);
+    margin-top: 44px;
+    margin-left: 2%;
+  }
+  main .banner-lat {
+    background-color: rgb(24, 24, 24);
+    color: red;
+    grid-area: 1/1/2/12;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2%;
+    padding-top: 15px;
+  }
+  main .banner-lat .parrafo {
+    font-size: 1.5vw;
+    font-family: "Helvetica";
+    line-height: 1.5rem;
+    visibility: hidden;
+  }
+  main .papalatas {
+    background-color: brown;
+    grid-area: 2/1/3/12;
+    background-image: url("https://www.goiko.com/wp-content/uploads/2022/03/PAPALATAS_1200x600.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2%;
+  }
+  main .texto-plato1 {
+    color: rgb(24, 24, 24);
+    grid-area: 3/1/4/12;
+    margin-bottom: 2%;
+    background-color: rgb(240, 240, 240);
+    padding-top: 10px;
+  }
+  main .texto-plato1 h5 {
+    font-size: 4vw;
+  }
+  main .texto-plato1 p {
+    font-size: 2vh;
+    font-family: "Helvetica";
+  }
+  main .sanahoria {
+    background-color: brown;
+    grid-area: 4/1/5/12;
+    background-image: url("https://www.goiko.com/wp-content/uploads/2022/02/SanaHoria_Ficha-de-producto-1200x600-1.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2%;
+  }
+  main .texto-plato2 {
+    color: rgb(24, 24, 24);
+    grid-area: 5/1/6/12;
+    margin-bottom: 2%;
+    background-color: rgb(240, 240, 240);
+    padding-top: 10px;
+  }
+  main .texto-plato2 h5 {
+    font-size: 4vw;
+  }
+  main .texto-plato2 p {
+    font-size: 2vh;
+    font-family: "Helvetica";
+  }
+  main .terichicken {
+    background-color: brown;
+    grid-area: 6/1/7/12;
+    background-image: url("https://www.goiko.com/wp-content/uploads/2017/02/ThaiChicken_Ficha-de-producto-1200x600-1.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2%;
+  }
+  main .texto-plato3 {
+    color: rgb(24, 24, 24);
+    grid-area: 7/1/8/12;
+    margin-bottom: 2%;
+    background-color: rgb(240, 240, 240);
+    padding-top: 10px;
+  }
+  main .texto-plato3 h5 {
+    font-size: 4vw;
+  }
+  main .texto-plato3 p {
+    font-size: 2vh;
+    font-family: "Helvetica";
+  }
+  main .empanadas {
+    background-color: brown;
+    grid-area: 8/1/9/12;
+    background-image: url("https://scm-assets.constant.co/scm/unilever/e9dc924f238fa6cc29465942875fe8f0/2d720e1e-ac0b-4ec2-aee4-403f33719222.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2%;
+  }
+  main .texto-plato4 {
+    color: rgb(24, 24, 24);
+    grid-area: 9/1/10/12;
+    margin-bottom: 2%;
+    background-color: rgb(240, 240, 240);
+    padding-top: 10px;
+  }
+  main .texto-plato4 h5 {
+    font-size: 4vw;
+  }
+  main .texto-plato4 p {
+    font-size: 2vh;
+    font-family: "Helvetica";
+  }
+  main .ensalada-simple {
+    background-color: brown;
+    grid-area: 10/1/11/12;
+    background-image: url("https://www.thespruceeats.com/thmb/jSsI2w8FkyTDrJhQkYJ5d0HS2uE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/green-salad-recipe-ensalada-verde-3083556-hero-01-256ac7f4162b45e5a1f82a5234a0708c.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2%;
+  }
+  main .texto-plato5 {
+    color: rgb(24, 24, 24);
+    grid-area: 11/1/12/12;
+    margin-bottom: 2%;
+    background-color: rgb(240, 240, 240);
+    padding-top: 10px;
+  }
+  main .texto-plato5 h5 {
+    font-size: 4vw;
+  }
+  main .texto-plato5 p {
+    font-size: 2vh;
+    font-family: "Helvetica";
+  }
+  main h4 {
+    font-size: 5rem;
+  }
+  main h3 {
+    color: red;
+  }
+}
+
+/*# sourceMappingURL=EntradasStyle.css.map */

@@ -2,15 +2,17 @@
 <html>
 
 <head>
-    <title>Restaurante Sin Nombre</title>
+    <title>Contacta con Burger Burger</title>
+    <meta name="Página de contacto Burger Burger" content="Toda la información de contacto, dirección, teléfono, correo electrónico y más">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
-
-<body style="background-color: rgb(245, 245, 245);">
+<body>
     <div class="container-fluid text-left">
+
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">BURGUER BURGUER</a>
@@ -32,25 +34,43 @@
                 </div>
             </div>
         </nav>
-        <div class="row ">
-            <div class="col-1"></div>
-            <div class="col-lg-10 justify-content-center">
-                <div class="row flex-lg-row-reverse align-items-center px-4 mb-5 pt-3">
-                    <div class=" col-sm-8 col-lg-6">
-                        <img src="./Media/burger.png" class="d-block mx-lg-auto img-fluid" alt="Burger de Pollo" width="700" height="500" loading="lazy">
+
+        <div class="container-fluid mx-lg-3 mx-sm-2">
+            <div class="row d-flex justify-content-center pt-3 mt-4 mx-lg-5 mx-sm-2">
+                <div class="col-lg-5 col-sm-12  gy-lg-3 gy-sm-0 my-lg-5 my-sm-0">
+                    <img src="https://s.hdnux.com/photos/01/30/04/10/23085580/3/rawImage.jpg" alt="Imagen de restaurante" class="d-block mx-lg-auto img-fluid" alt="Imagen restaurante" width="700" height="500">
+                </div>
+                <div class="col-lg-5 col-sm-12 gy-lg-3 gy-sm-0 my-lg-5 mt-sm-0 mb-sm-4" style="background-color: rgb(24, 24, 24); color: rgb(255, 255, 255);">
+
+                    <div class="row pt-5 pb-3 px-3">
+                        <div class="titulo-info" style="color: red;">Contacto</div>
                     </div>
-                    <div class="col gx-3 gy-lg-5">
-                        <div class="header-principal">LA MEJOR HAMBURGUESA <br> DE POLLO DE <span style="color: red;">ESPAÑA</span> </div>
-                        <p class="lead" style="font-family: 'Helvetica';">Prueba nuestra nueva receta con pollo frito al estilo Kentucky, extra queso suizo y nuestra salsa especial secreta</p>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button" class="btn btn-dark btn-lg px-4 me-md-2"> <a href="./Menu.html">VER MENÚ</a></button>
-                            <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a href="./contacto.html">ESCRÍBENOS</a></button>
+                    <div class="row py-2 px-3">
+                        <div class="col-1 d-flex align-items-center"><span class="material-symbols-outlined">
+                            call
+                            </span>
                         </div>
+                        <div class="col gx-lg-0 gx-sm-2 d-flex align-items-center info"> +34 258963587</div>
                     </div>
+                    <div class="row py-2 px-3">
+                        <div class="col-1 d-flex align-items-center"><span class="material-symbols-outlined">
+                            mail
+                            </span></div>
+                        <div class="col gx-lg-0 gx-sm-2 d-flex align-items-center info">info@restauranteinventado.es</div>
+                    </div>
+                    <div class="row py-2 px-3  direccion">
+                        <div class="col-1 d-flex align-items-center"><span class="material-symbols-outlined">
+                            home
+                            </span></div>
+                        <div class="col gx-lg-0 gx-sm-2 d-flex align-items-center info info-direccion">Avenida de Los Desarrolladores 654, 08025, Javarcelona, España</div>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="row py-4" style="background-color: rgb(24, 24, 24); color: rgb(224, 0, 0);">
+
+
+        <div class="row py-4" style="background-color:rgb(24, 24, 24) ; color: rgb(224, 0, 0);">
             <div class="col">
                 <div class="row py-2"></div>
                 <div class="row text-center d-flex justify-content-center align-items-center">
@@ -59,8 +79,8 @@
                     <div class="col ">
                         <a href="us.html">Sobre Nosotros</a>
                     </div>
-                    <div class="col ">
-                        <a href="contacto.html">Contacto</a>
+                    <div class="col">
+                        <a class="nav-link disabled" href="contacto.html">Contacto</a>
                     </div>
                     <div class="col "></div>
                 </div>
@@ -74,10 +94,6 @@
             </div>
         </div>
     </div>
-
-
-
-
 </body>
 
 </html>

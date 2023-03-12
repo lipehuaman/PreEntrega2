@@ -1,0 +1,144 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 120px);
+  margin-top: 44px;
+  margin-left: 10%;
+}
+main .banner-lat {
+  background-color: rgb(24, 24, 24);
+  color: red;
+  grid-area: 1/1/11/4;
+}
+main .banner-lat .textos {
+  justify-content: center;
+}
+main .banner-lat .textos .parrafo {
+  padding-left: 2%;
+  padding-right: 2%;
+  line-height: 1.5rem;
+}
+main .banner-lat .textos .parrafo p {
+  font-family: Helvetica;
+  font-size: 2.5vh;
+}
+main .banner-lat .textos .titulo-pag {
+  font-size: 10vh;
+  text-align: center;
+}
+main .entradas {
+  background-color: brown;
+  grid-area: 1/4/3/12;
+  background-image: url("https://www.goiko.com/wp-content/uploads/2022/03/PAPALATAS_1200x600.jpg");
+  background-position: center;
+}
+main .tapas {
+  background-color: brown;
+  grid-area: 3/4/5/12;
+  background-image: url("https://www.goiko.com/wp-content/uploads/2022/02/SanaHoria_Ficha-de-producto-1200x600-1.jpg");
+  background-position: center;
+}
+main .platos-fondo {
+  background-color: brown;
+  grid-area: 5/4/7/12;
+  background-image: url("https://www.goiko.com/wp-content/uploads/2017/02/ThaiChicken_Ficha-de-producto-1200x600-1.jpg");
+  background-position: center;
+}
+main .bebidas {
+  background-color: brown;
+  grid-area: 7/4/9/12;
+  background-image: url("https://scm-assets.constant.co/scm/unilever/e9dc924f238fa6cc29465942875fe8f0/2d720e1e-ac0b-4ec2-aee4-403f33719222.jpg");
+  background-position: center;
+}
+main .postres {
+  background-color: brown;
+  grid-area: 9/4/11/12;
+  background-image: url("https://www.thespruceeats.com/thmb/jSsI2w8FkyTDrJhQkYJ5d0HS2uE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/green-salad-recipe-ensalada-verde-3083556-hero-01-256ac7f4162b45e5a1f82a5234a0708c.jpg");
+  background-position: center;
+}
+main h4 {
+  font-size: 5vw;
+}
+
+span {
+  padding-left: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  color: white;
+  font-size: 6vh;
+}
+
+@media (max-width: 1355px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 120px);
+    margin-top: 44px;
+    margin-left: 2%;
+    margin-bottom: 200px;
+  }
+  main .banner-lat {
+    background-color: rgb(24, 24, 24);
+    color: red;
+    grid-area: 1/1/3/12;
+  }
+  main .banner-lat .parrafo {
+    justify-content: center;
+    text-align: center;
+  }
+  main .banner-lat .parrafo p {
+    font-family: Helvetica;
+    font-size: 2vh;
+    padding: 4px;
+  }
+  main .entradas {
+    background-color: brown;
+    grid-area: 3/1/5/12;
+    background-image: url("https://www.goiko.com/wp-content/uploads/2022/03/PAPALATAS_1200x600.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2%;
+  }
+  main .tapas {
+    background-color: brown;
+    grid-area: 5/1/7/12;
+    background-image: url("https://www.goiko.com/wp-content/uploads/2022/02/SanaHoria_Ficha-de-producto-1200x600-1.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2%;
+  }
+  main .platos-fondo {
+    background-color: brown;
+    grid-area: 7/1/9/12;
+    background-image: url("https://www.goiko.com/wp-content/uploads/2017/02/ThaiChicken_Ficha-de-producto-1200x600-1.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2%;
+  }
+  main .bebidas {
+    background-color: brown;
+    grid-area: 9/1/11/12;
+    background-image: url("https://scm-assets.constant.co/scm/unilever/e9dc924f238fa6cc29465942875fe8f0/2d720e1e-ac0b-4ec2-aee4-403f33719222.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2%;
+  }
+  main .postres {
+    background-color: brown;
+    grid-area: 11/1/13/12;
+    background-image: url("https://www.thespruceeats.com/thmb/jSsI2w8FkyTDrJhQkYJ5d0HS2uE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/green-salad-recipe-ensalada-verde-3083556-hero-01-256ac7f4162b45e5a1f82a5234a0708c.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2%;
+  }
+  main span {
+    padding-left: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    color: white;
+    font-size: 4vh;
+    -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+  }
+}
+
+/*# sourceMappingURL=MenuStyle.css.map */
